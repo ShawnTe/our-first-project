@@ -22,6 +22,7 @@ export default class App extends React.Component {
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
           {Platform.OS === 'android' &&
             <View style={styles.statusBarUnderlay} />}
+            <h1>Let us add text to our new project</h1>
           <RootNavigation />
         </View>
       );
